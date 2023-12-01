@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    }
+}
