@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Mona Sans';
-  src: url('../fonts/Mona-Sans-Regular.woff2')
-      format('woff2 supports variations'),
+  src: url('../fonts/Mona-Sans-Regular.woff2') format('woff2 supports variations'),
     url('../fonts/Mona-Sans-Regular.woff2') format('woff2-variations');
   font-weight: 200 900;
   font-stretch: 75% 125%;
@@ -48,9 +47,11 @@ main {
     background: #0d1117;
     color: #c9d1d9;
   }
+
   a:link {
     color: #58a6ff;
   }
+
   a:visited {
     color: #8e96f0;
   }

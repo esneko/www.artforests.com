@@ -1,24 +1,22 @@
 {
-  "name": "www.artforests.com",
+  "name": "artforests.com",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro build && astro preview"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.1",
-    "@astrojs/mdx": "^1.1.5",
-    "@astrojs/react": "^3.0.6",
-    "@types/react": "^18.2.39",
+    "@astrojs/check": "^0.3.2",
+    "@astrojs/mdx": "^2.0.1",
+    "@astrojs/react": "^3.0.7",
+    "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
-    "astro": "^3.6.4",
+    "astro": "^4.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@biomejs/biome": "1.4.1"

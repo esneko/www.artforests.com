@@ -1,5 +1,9 @@
 {
     "editor.defaultFormatter": "astro-build.astro-vscode",
+    "editor.formatOnSave": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
